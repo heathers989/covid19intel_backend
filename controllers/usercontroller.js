@@ -22,6 +22,25 @@ comments.post('/', (req, res) => {
     })
   })
 
+  //delete
+  comments.delete('/:id', (req, res) => {
+    Comment.findByIdAndRemove(req.params.id, (err, deletedComment) => {
+      if (err) {
+        res.status(400).json({ error: err.message })
+      }
+      res.status(200).json(deletedComment)
+    })
+  })
+
+  //update
+    comments.put('/:id', (req, res) => {
+    Comment.findByIdAndUpdate(req.params.id, req.body, { new: true }, (err, updatedComment) => {
+      if (err) {
+        res.status(400).json({ error: err.message })
+      }
+      res.status(200).json(updatedComment)
+    })
+  })
 
 
 module.exports = comments

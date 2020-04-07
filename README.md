@@ -1,7 +1,7 @@
 # covid19intel_backend
 back end code for COVID-19 Intel
 
-https://awwapp.com/b/ucchiv4su/#
+Wireframe: https://awwapp.com/b/ucchiv4su/#
 
 * Heroku link:
 

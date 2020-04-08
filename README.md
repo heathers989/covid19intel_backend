@@ -1,9 +1,11 @@
 # covid19intel_backend
 back end code for COVID-19 Intel
 
+
+
 Wireframe: https://awwapp.com/b/ucchiv4su/#
 
-* Heroku link:
+* Heroku link: https://covid19intel-backend.herokuapp.com
 
 * Purpose: create routes for use in COVID-19 Intel, specifically the comments/requests section.
 
